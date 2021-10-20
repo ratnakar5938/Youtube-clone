@@ -1,10 +1,13 @@
 import "./App.css";
+import Header from "./Header";
 
 function App() {
     return (
         // BEM class naming convention
         <div className="app">
-            <h1>Hello everyone! Lets build youtube clone🚀</h1>
+            <Header />
+            {/* <Sidebar /> */}
+            {/* recommended videos */}
         </div>
     );
 }
