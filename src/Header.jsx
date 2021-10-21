@@ -77,6 +77,10 @@ const SearchContainer = styled.div`
         border-radius: 50px 0 0 50px;
     }
 
+    & > input:focus {
+        outline: none;
+    }
+
     & > .input_btn {
         width: 50px !important;
         background-color: #fafafa;
