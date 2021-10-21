@@ -22,12 +22,20 @@ const HeaderContainer = styled.div`
     top: 0;
     z-index: 100;
     background-color: white;
+
+    @media (max-width: 760px) {
+        position: inherit;
+        padding: 10px;
+    }
 `;
 
 const HeaderLogo = styled.img`
     height: 25px;
     object-fit: contain;
     margin-left: 20px;
+    @media (max-width: 760px) {
+        display: none;
+    }
 `;
 
 const HeaderLeftContainer = styled.div``;
@@ -36,6 +44,10 @@ const HeaderCenterContainer = styled.div`
     display: flex;
     align-items: center;
     width: 40%;
+    @media (max-width: 760px) {
+        width: 100%;
+        margin-left: 10px;
+    }
 `;
 
 const SearchContainer = styled.div`
@@ -70,9 +82,14 @@ const HeaderIcons = styled.div`
         /* margin-right: 8px; */
         padding: 8px;
         border-radius: 100%;
+        cursor: pointer;
 
         &:hover {
             background-color: #fafafa;
+        }
+
+        @media (max-width: 760px) {
+            display: none;
         }
     }
 
@@ -109,6 +126,7 @@ function Header() {
                 <Avatar
                     src="https://avatars.githubusercontent.com/u/80893583?v=4"
                     alt="my profile"
+                    style={{ cursor: "pointer" }}
                 />
             </HeaderIcons>
         </HeaderContainer>
