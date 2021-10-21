@@ -67,6 +67,16 @@ const HeaderIcons = styled.div`
     align-items: center;
 
     & > .header_icon {
+        /* margin-right: 8px; */
+        padding: 8px;
+        border-radius: 100%;
+
+        &:hover {
+            background-color: #fafafa;
+        }
+    }
+
+    & > .last_icon {
         margin-right: 8px;
     }
 `;
@@ -95,7 +105,7 @@ function Header() {
             <HeaderIcons>
                 <VideoCall className="header_icon" />
                 <Apps className="header_icon" />
-                <Notifications className="header_icon" />
+                <Notifications className="header_icon last_icon" />
                 <Avatar
                     src="https://avatars.githubusercontent.com/u/80893583?v=4"
                     alt="my profile"
