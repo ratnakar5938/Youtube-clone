@@ -5,11 +5,12 @@ import React from "react";
 import {
     Apps,
     Menu,
+    Mic,
     Notifications,
     Search,
     VideoCall,
 } from "@material-ui/icons";
-import { Avatar } from "@material-ui/core";
+import { Avatar, IconButton } from "@material-ui/core";
 import styled from "styled-components";
 
 const HeaderContainer = styled.div`
@@ -35,11 +36,20 @@ const HeaderCenterContainer = styled.div`
     display: flex;
     align-items: center;
     width: 40%;
+`;
+
+const SearchContainer = styled.div`
+    display: flex;
+    align-items: center;
     border: 1px solid black;
+    border-radius: 50px;
+    flex: 1;
 
     & > input {
         flex: 1;
-        border: none;
+        border: 1px transparent;
+        padding: 10px;
+        border-radius: 50px 0 0 50px;
     }
 
     & > .input_btn {
@@ -47,6 +57,8 @@ const HeaderCenterContainer = styled.div`
         background-color: #fafafa;
         border-left: 1px solid lightgray;
         color: gray;
+        border-radius: 0 50px 50px 0;
+        cursor: pointer;
     }
 `;
 
@@ -71,8 +83,13 @@ function Header() {
             </HeaderLeftContainer>
 
             <HeaderCenterContainer>
-                <input placeholder="Search" type="text" />
-                <Search className="input_btn" />
+                <SearchContainer>
+                    <input placeholder="Search" type="text" />
+                    <Search className="input_btn" />
+                </SearchContainer>
+                <IconButton>
+                    <Mic />
+                </IconButton>
             </HeaderCenterContainer>
 
             <HeaderIcons>
