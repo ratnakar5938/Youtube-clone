@@ -40,10 +40,6 @@ const SidebarRowContainer = styled.div`
         & > .sidebarRow__icon {
             color: red;
         }
-
-        & > ${SidebarRowTitle} {
-            font-weight: bold;
-        }
     }
 `;
 

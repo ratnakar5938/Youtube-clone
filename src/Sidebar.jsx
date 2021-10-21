@@ -19,7 +19,7 @@ import {
 import SidebarRow from "./SidebarRow";
 
 const SidebarContainer = styled.div`
-    flex: 0.2;
+    flex: 0.15;
 
     & > hr {
         height: 1px;

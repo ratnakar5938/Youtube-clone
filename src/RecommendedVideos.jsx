@@ -5,8 +5,8 @@ import React from "react";
 import styled from "styled-components";
 
 const RecommendedContainer = styled.div`
-    flex: 0.8;
-    border: 1px solid black;
+    flex: 0.85;
+    /* border: 1px solid black; */
 
     @media (max-width: 760px) {
         flex: 1;
