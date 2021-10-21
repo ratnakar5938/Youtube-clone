@@ -38,7 +38,20 @@ const HeaderLogo = styled.img`
     }
 `;
 
-const HeaderLeftContainer = styled.div``;
+const HeaderLeftContainer = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & > .header__icon {
+        padding: 8px;
+        border-radius: 100%;
+        cursor: pointer;
+        &:hover {
+            background-color: #fafafa;
+        }
+    }
+`;
 
 const HeaderCenterContainer = styled.div`
     display: flex;
@@ -102,7 +115,7 @@ function Header() {
     return (
         <HeaderContainer>
             <HeaderLeftContainer>
-                <Menu />
+                <Menu className="header__icon" />
                 <HeaderLogo
                     src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
                     alt=""
