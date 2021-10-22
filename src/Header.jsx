@@ -58,9 +58,6 @@ const HeaderLeftContainer = styled.div`
         padding: 8px;
         border-radius: 100%;
         cursor: pointer;
-        &:hover {
-            background-color: #fafafa;
-        }
 
         @media (max-width: 760px) {
             display: none;
@@ -125,14 +122,9 @@ const HeaderIcons = styled.div`
     align-items: center;
 
     & > .header_icon {
-        /* margin-right: 8px; */
         padding: 8px;
         border-radius: 100%;
         cursor: pointer;
-
-        &:hover {
-            background-color: #fafafa;
-        }
 
         @media (max-width: 760px) {
             display: none;
