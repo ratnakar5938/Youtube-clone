@@ -18,6 +18,12 @@ const RecommendedContainer = styled.div`
     @media (max-width: 760px) {
         flex: 1;
     }
+
+    @media (max-width: 600px) {
+        left: 0;
+        padding: 0;
+        padding-top: 20px;
+    }
 `;
 
 const RecomendedTitle = styled.h2`

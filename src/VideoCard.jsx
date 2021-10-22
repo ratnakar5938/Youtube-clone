@@ -16,9 +16,13 @@ const VideoCardInfo = styled.div`
 
 const VideoCardText = styled.div`
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 
     & > div {
         display: flex;
+        justify-content: space-between;
     }
 
     & > div > h4 {
@@ -66,6 +70,20 @@ const VideoCardContainer = styled.div`
     &:hover ${VideoCardText} {
         & .vertical__dots {
             display: block;
+        }
+    }
+
+    @media (max-width: 600px) {
+        width: 100vw;
+
+        & ${VideoCardInfo} {
+            padding-left: 20px;
+        }
+
+        & ${VideoCardText} {
+            & .vertical__dots {
+                display: block;
+            }
         }
     }
 `;
