@@ -75,6 +75,9 @@ const HeaderCenterContainer = styled.div`
     @media (max-width: 760px) {
         width: 100%;
         margin-left: 10px;
+        & > .mic__icon {
+            display: none;
+        }
     }
 `;
 
@@ -82,14 +85,12 @@ const SearchContainer = styled.div`
     display: flex;
     align-items: center;
     border: 1px solid black;
-    border-radius: 50px;
     flex: 1;
 
     & > input {
         flex: 1;
         border: 1px transparent;
         padding: 10px;
-        border-radius: 50px 0 0 50px;
     }
 
     & > input:focus {
@@ -98,11 +99,24 @@ const SearchContainer = styled.div`
 
     & > .input_btn {
         width: 50px !important;
+        padding-top: 5px;
+        padding-bottom: 5px;
         background-color: #fafafa;
         border-left: 1px solid lightgray;
         color: gray;
-        border-radius: 0 50px 50px 0;
         cursor: pointer;
+    }
+
+    @media (max-width: 760px) {
+        border-radius: 50px;
+        margin-right: 17px;
+        & > input {
+            border-radius: 50px 0 0 50px;
+        }
+        & > .input_btn {
+            border-radius: 0 50px 50px 0;
+            padding: 0;
+        }
     }
 `;
 
@@ -147,7 +161,7 @@ function Header() {
                     <input placeholder="Search" type="text" />
                     <Search className="input_btn" />
                 </SearchContainer>
-                <IconButton>
+                <IconButton className="mic__icon">
                     <Mic />
                 </IconButton>
             </HeaderCenterContainer>
