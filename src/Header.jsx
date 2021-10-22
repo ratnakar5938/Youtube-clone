@@ -9,6 +9,7 @@ import {
     Notifications,
     Search,
     VideoCall,
+    YouTube,
 } from "@material-ui/icons";
 import { Avatar, IconButton } from "@material-ui/core";
 import styled from "styled-components";
@@ -33,6 +34,7 @@ const HeaderLogo = styled.img`
     height: 25px;
     object-fit: contain;
     margin-left: 20px;
+
     @media (max-width: 760px) {
         display: none;
     }
@@ -43,12 +45,25 @@ const HeaderLeftContainer = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    & > .youtube__icon {
+        display: none;
+        @media (max-width: 760px) {
+            display: block;
+            font-size: 42px;
+            color: red;
+        }
+    }
+
     & > .header__icon {
         padding: 8px;
         border-radius: 100%;
         cursor: pointer;
         &:hover {
             background-color: #fafafa;
+        }
+
+        @media (max-width: 760px) {
+            display: none;
         }
     }
 `;
@@ -120,6 +135,7 @@ function Header() {
         <HeaderContainer>
             <HeaderLeftContainer>
                 <Menu className="header__icon" />
+                <YouTube className="youtube__icon" />
                 <HeaderLogo
                     src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
                     alt=""
