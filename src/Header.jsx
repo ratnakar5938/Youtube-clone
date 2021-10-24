@@ -1,5 +1,5 @@
 // default import
-import React from "react";
+import React, { useState } from "react";
 
 // libraries
 import {
@@ -13,6 +13,7 @@ import {
 } from "@material-ui/icons";
 import { Avatar, IconButton } from "@material-ui/core";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const HeaderContainer = styled.div`
     display: flex;
@@ -23,6 +24,10 @@ const HeaderContainer = styled.div`
     top: 0;
     z-index: 100;
     background-color: white;
+
+    & .link__container {
+        display: flex;
+    }
 
     @media (max-width: 760px) {
         position: inherit;
@@ -45,7 +50,7 @@ const HeaderLeftContainer = styled.div`
     align-items: center;
     justify-content: space-between;
 
-    & > .youtube__icon {
+    & .youtube__icon {
         display: none;
         @media (max-width: 760px) {
             display: block;
@@ -94,7 +99,7 @@ const SearchContainer = styled.div`
         outline: none;
     }
 
-    & > .input_btn {
+    & .input_btn {
         width: 50px !important;
         padding-top: 5px;
         padding-bottom: 5px;
@@ -110,7 +115,7 @@ const SearchContainer = styled.div`
         & > input {
             border-radius: 50px 0 0 50px;
         }
-        & > .input_btn {
+        & .input_btn {
             border-radius: 0 50px 50px 0;
             padding: 0;
         }
@@ -137,21 +142,37 @@ const HeaderIcons = styled.div`
 `;
 
 function Header() {
+    const [inputSearch, setInputSearch] = useState("");
+
     return (
         <HeaderContainer>
             <HeaderLeftContainer>
                 <Menu className="header__icon" />
-                <YouTube className="youtube__icon" />
-                <HeaderLogo
-                    src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
-                    alt=""
-                />
+                <Link className="link__container" to="/">
+                    <YouTube className="youtube__icon" />
+                </Link>
+                <Link className="link__container" to="/">
+                    <HeaderLogo
+                        src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
+                        alt=""
+                    />
+                </Link>
             </HeaderLeftContainer>
 
             <HeaderCenterContainer>
                 <SearchContainer>
-                    <input placeholder="Search" type="text" />
-                    <Search className="input_btn" />
+                    <input
+                        placeholder="Search"
+                        type="text"
+                        value={inputSearch}
+                        onChange={(e) => setInputSearch(e.target.value)}
+                    />
+                    <Link
+                        className="link__container"
+                        to={`/search/${inputSearch}`}
+                    >
+                        <Search className="input_btn" />
+                    </Link>
                 </SearchContainer>
                 <IconButton className="mic__icon">
                     <Mic />
