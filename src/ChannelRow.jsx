@@ -52,6 +52,15 @@ const ChannelRowText = styled.div`
     & > p {
         margin-bottom: 4px;
         color: #606060;
+        @media (max-width: 600px) {
+            font-size: small;
+            & > span {
+                display: block;
+            }
+            & .dot {
+                display: none;
+            }
+        }
     }
 
     & .description {
@@ -61,6 +70,10 @@ const ChannelRowText = styled.div`
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
+
+        @media (max-width: 600px) {
+            display: none;
+        }
     }
 
     & .verifiedIcon {
@@ -85,7 +98,9 @@ function ChannelRow({
                     {verified && <CheckCircle className="verifiedIcon" />}
                 </h4>
                 <p>
-                    {subs} subscribers • {noOfViideos} videos
+                    <span>{subs} subscribers</span>
+                    <span className="dot"> • </span>
+                    <span>{noOfViideos} videos</span>
                 </p>
                 <p className="description">{description}</p>
             </ChannelRowText>
