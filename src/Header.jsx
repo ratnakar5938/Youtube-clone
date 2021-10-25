@@ -27,6 +27,9 @@ const HeaderContainer = styled.div`
 
     & .link__container {
         display: flex;
+        & > button {
+            display: none;
+        }
     }
 
     @media (max-width: 760px) {
@@ -83,7 +86,7 @@ const HeaderCenterContainer = styled.div`
     }
 `;
 
-const SearchContainer = styled.div`
+const SearchContainer = styled.form`
     display: flex;
     align-items: center;
     border: 1px solid black;
@@ -160,7 +163,7 @@ function Header() {
             </HeaderLeftContainer>
 
             <HeaderCenterContainer>
-                <SearchContainer>
+                <SearchContainer onSubmit={`/search/${inputSearch}`}>
                     <input
                         placeholder="Search"
                         type="text"
@@ -171,6 +174,7 @@ function Header() {
                         className="link__container"
                         to={`/search/${inputSearch}`}
                     >
+                        <button type="submit"></button>
                         <Search className="input_btn" />
                     </Link>
                 </SearchContainer>
