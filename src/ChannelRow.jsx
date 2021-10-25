@@ -14,9 +14,8 @@ const ChannelRowContainer = styled.div`
     }
 
     & .channel__icon {
-        height: 136px;
-        color: gray;
-        width: 136px;
+        height: 136px !important;
+        width: 136px !important;
         margin-left: 100px;
         margin-right: 100px;
 
@@ -52,6 +51,7 @@ const ChannelRowText = styled.div`
 
     & > p {
         margin-bottom: 4px;
+        color: #606060;
     }
 
     & .description {
