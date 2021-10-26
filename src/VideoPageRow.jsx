@@ -1,7 +1,10 @@
-import { CheckCircle, MoreVert } from "@material-ui/icons";
+// default import
 import React from "react";
-import { Link } from "react-router-dom";
+
+// libraries
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+import { CheckCircle, MoreVert } from "@material-ui/icons";
 
 const VideoPageRowContainer = styled.div`
     & .vertical__dots {

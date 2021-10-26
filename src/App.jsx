@@ -1,11 +1,13 @@
+// libraries
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 // components
 import Header from "./Header";
 import RecommendedVideos from "./RecommendedVideos";
 import Sidebar from "./Sidebar";
-import { AppPage } from "./Styled";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SearchPage from "./SearchPage";
 import VideoPage from "./VideoPage";
+import { AppPage } from "./Styled";
 
 function App() {
     return (

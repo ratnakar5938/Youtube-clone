@@ -1,6 +1,11 @@
-import { TuneOutlined } from "@material-ui/icons";
+// default import
 import React from "react";
+
+// libraries
 import styled from "styled-components";
+import { TuneOutlined } from "@material-ui/icons";
+
+// components
 import ChannelRow from "./ChannelRow";
 import VideoRow from "./VideoRow";
 
