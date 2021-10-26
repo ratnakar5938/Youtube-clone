@@ -10,15 +10,12 @@ Check out the [deployed site](https://youtube-clone-ratnakar5938.vercel.app/)
 
 ## Tech Stack
 
-<hr/>
-
 **Client:** React, React-Router, CSS
 
 **Deployment:** Vercel
 
 ## Screenshots
 
-<hr/>
 <div align="center">
 <img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237492/youtube-clone/Screenshot_119_mguc2n.png" width="70%" style="margin-right: 30px;">
 <img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237815/youtube-clone/Screenshot_2021-10-26-14-11-20-64_df198e732186825c8df26e3c5a10d7cd_sgt0e0.jpg" width="17.75%">
@@ -30,7 +27,6 @@ Check out the [deployed site](https://youtube-clone-ratnakar5938.vercel.app/)
 
 ## Installation
 
-<hr/>
 
 Install yarn into your system
 
@@ -40,7 +36,6 @@ Install yarn into your system
 
 ## Run Locally
 
-<hr/>
 
 Clone the project
 
@@ -68,7 +63,6 @@ Start the server
 
 ## Contributing
 
-<hr/>
 
 Contributions are always welcome!
 
@@ -78,7 +72,6 @@ Please adhere to this project's `code of conduct`.
 
 ## Project Admin
 
-<hr/>
 
 <p align="center">
 <table>
