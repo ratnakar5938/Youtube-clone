@@ -1,5 +1,10 @@
+// default import
 import React from "react";
+
+// libraries
 import styled from "styled-components";
+
+// components
 import VideoPageRow from "./VideoPageRow";
 
 const VideoPageContainer = styled.div`

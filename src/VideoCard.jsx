@@ -1,8 +1,11 @@
+// default import
+import React from "react";
+
+// libraries
+import styled from "styled-components";
 import { Avatar } from "@material-ui/core";
 import { MoreVert } from "@material-ui/icons";
-import React from "react";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
 
 const VideoCardInfo = styled.div`
     display: flex;

@@ -1,7 +1,10 @@
+// default import
+import React from "react";
+
+// libraries
+import styled from "styled-components";
 import { Avatar } from "@material-ui/core";
 import { CheckCircle } from "@material-ui/icons";
-import React from "react";
-import styled from "styled-components";
 
 const ChannelRowContainer = styled.div`
     display: flex;

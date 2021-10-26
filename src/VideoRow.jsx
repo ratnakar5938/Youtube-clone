@@ -1,8 +1,11 @@
+// default import
+import React from "react";
+
+// libraries
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 import { Avatar } from "@material-ui/core";
 import { CheckCircle, MoreVert } from "@material-ui/icons";
-import React from "react";
-import { Link } from "react-router-dom";
-import styled from "styled-components";
 
 const VideoRowContainer = styled.div`
     & .link {
