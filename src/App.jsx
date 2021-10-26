@@ -5,6 +5,7 @@ import Sidebar from "./Sidebar";
 import { AppPage } from "./Styled";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SearchPage from "./SearchPage";
+import VideoPage from "./VideoPage";
 
 function App() {
     return (
@@ -17,6 +18,11 @@ function App() {
                         <AppPage>
                             <Sidebar />
                             <SearchPage />
+                        </AppPage>
+                    </Route>
+                    <Route path="/video/:videoTerm">
+                        <AppPage>
+                            <VideoPage />
                         </AppPage>
                     </Route>
                     <Route path="/">

@@ -1,13 +1,18 @@
 import { Avatar } from "@material-ui/core";
 import { CheckCircle, MoreVert } from "@material-ui/icons";
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const VideoRowContainer = styled.div`
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 15px;
-    flex: 1;
+    & .link {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 15px;
+        flex: 1;
+        text-decoration: none;
+        color: inherit;
+    }
 
     & .vertical__dots {
         display: none;
@@ -22,6 +27,12 @@ const VideoRowContainer = styled.div`
             display: block;
         }
 
+        & .video__text {
+            margin-right: 0;
+        }
+    }
+
+    @media (max-width: 600px) {
         & .video__text {
             margin-right: 0;
         }
@@ -120,26 +131,28 @@ const Channel = styled.div`
 function VideoRow({ views, title, time, channel, description, image, logo }) {
     return (
         <VideoRowContainer>
-            <VideoRowImg src={image} alt="video_image" />
-            <VideoRowText className="video__text">
-                <h4>{title}</h4>
-                <p>
-                    <span>{views} views</span>
-                    <span className="dot"> • </span>
-                    <span>{time} ago</span>
-                </p>
-                <Channel>
-                    <Avatar
-                        className="channel__logo"
-                        src={logo}
-                        alt={channel}
-                    />
-                    <p>{channel}</p>
-                    <CheckCircle className="verified__icon" />
-                </Channel>
-                <p className="video__description">{description}</p>
-            </VideoRowText>
-            <MoreVert className="vertical__dots" />
+            <Link className="link" to="/video/alright">
+                <VideoRowImg src={image} alt="video_image" />
+                <VideoRowText className="video__text">
+                    <h4>{title}</h4>
+                    <p>
+                        <span>{views} views</span>
+                        <span className="dot"> • </span>
+                        <span>{time} ago</span>
+                    </p>
+                    <Channel>
+                        <Avatar
+                            className="channel__logo"
+                            src={logo}
+                            alt={channel}
+                        />
+                        <p>{channel}</p>
+                        <CheckCircle className="verified__icon" />
+                    </Channel>
+                    <p className="video__description">{description}</p>
+                </VideoRowText>
+                <MoreVert className="vertical__dots" />
+            </Link>
         </VideoRowContainer>
     );
 }
