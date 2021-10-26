@@ -1,6 +1,7 @@
 import { Avatar } from "@material-ui/core";
 import { MoreVert } from "@material-ui/icons";
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const VideoCardInfo = styled.div`
@@ -63,6 +64,11 @@ const VideoCardContainer = styled.div`
     margin-bottom: 40px;
     cursor: pointer;
 
+    & .link {
+        text-decoration: none;
+        color: inherit;
+    }
+
     &:hover ${VideoCardInfo} {
         padding-right: 0;
     }
@@ -95,24 +101,26 @@ const VideoCardImage = styled.img`
 function VideoCard({ image, channel, channel_icon, title, views, timestamp }) {
     return (
         <VideoCardContainer>
-            <VideoCardImage src={image} alt="" />
-            <VideoCardInfo>
-                <Avatar
-                    className="videoCard__avatar"
-                    alt={channel}
-                    src={channel_icon}
-                />
-                <VideoCardText>
-                    <div>
-                        <h4>{title}</h4>
-                        <MoreVert className="vertical__dots" />
-                    </div>
-                    <p className="channel__name">{channel}</p>
-                    <p className="views__timestamp">
-                        {views} • {timestamp}
-                    </p>
-                </VideoCardText>
-            </VideoCardInfo>
+            <Link className="link" to="/video/alright">
+                <VideoCardImage src={image} alt="" />
+                <VideoCardInfo>
+                    <Avatar
+                        className="videoCard__avatar"
+                        alt={channel}
+                        src={channel_icon}
+                    />
+                    <VideoCardText>
+                        <div>
+                            <h4>{title}</h4>
+                            <MoreVert className="vertical__dots" />
+                        </div>
+                        <p className="channel__name">{channel}</p>
+                        <p className="views__timestamp">
+                            {views} • {timestamp}
+                        </p>
+                    </VideoCardText>
+                </VideoCardInfo>
+            </Link>
         </VideoCardContainer>
     );
 }
