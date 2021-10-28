@@ -10,7 +10,9 @@ import VideoCard from "./VideoCard";
 const RecommendedContainer = styled.div`
     flex: 0.85;
     height: 83vh;
-    background-color: #f9f9f9;
+    ${'' /* background-color: #f9f9f9; */}
+    background: ${(props) => props.theme.background};
+    color: ${(props) => props.theme.text};
     padding: 40px 20px;
     padding-bottom: 0;
     overflow-y: scroll;

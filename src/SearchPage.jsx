@@ -12,7 +12,8 @@ import VideoRow from "./VideoRow";
 const SearchPageContainer = styled.div`
     flex: 0.85;
     height: 83vh;
-    background-color: #f9f9f9;
+    background: ${(props) => props.theme.background};
+    color: ${(props) => props.theme.text};
     padding: 20px 50px;
     padding-bottom: 0;
     overflow-y: scroll;

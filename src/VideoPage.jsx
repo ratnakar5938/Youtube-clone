@@ -12,7 +12,9 @@ const VideoPageContainer = styled.div`
     flex: 1;
     padding: 20px;
     padding-bottom: 0;
-    background-color: #f9f9f9;
+    ${'' /* background-color: #f9f9f9; */}
+    background: ${(props) => props.theme.background};
+    color: ${(props) => props.theme.text};
     height: 85vh;
 
     @media (max-width: 1040px) {

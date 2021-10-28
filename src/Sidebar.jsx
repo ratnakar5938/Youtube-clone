@@ -20,6 +20,8 @@ import SidebarRow from "./SidebarRow";
 
 const SidebarContainer = styled.div`
     flex: 0.15;
+    background: ${(props) => props.theme.background};
+    color: ${(props) => props.theme.text};
 
     & > hr {
         height: 1px;
