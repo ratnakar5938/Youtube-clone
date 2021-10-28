@@ -1,7 +1,4 @@
 <div align="center" >
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 <img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237524/youtube-clone/youtube_uufnxp.png"  width="70%">
 </div>
 
@@ -86,6 +83,8 @@ Please adhere to this project's `code of conduct`.
 <table>
   <tbody><tr>
      <td align="center"><a href="https://github.com/ratnakar5938"><img alt="" src="https://avatars.githubusercontent.com/ratnakar5938" width="100px;"><br><sub><b> Ratnakar Sahoo </b></sub></a><br></td> </a></td>
+     </tbody>
+     </table>
 
 ## Contributors ✨
 
