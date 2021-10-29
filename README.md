@@ -21,6 +21,7 @@ Check out the [deployed site](https://youtube-clone-ratnakar5938.vercel.app/)
   ### Home Page UI
   
   <img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635510940/youtube-clone/QonmoSxgsN_oyq7hl.gif" />
+  <br>
   
   ### SearchBar UI
 
