@@ -20,7 +20,7 @@
 <h2>Demo</h2>
 
 <div align="center">
-  <img src="https://github.com/ratnakar5938/Youtube-clone/tree/master/public/assets/YouTube-Clone.gif" />
+  <img src="./public/assets/YouTube-Clone.gif" />
   <br>
 </div>
 
