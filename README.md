@@ -108,6 +108,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/ratnakar-sahoo-a78401135"><img src="https://avatars.githubusercontent.com/u/80893583?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ratnakar Sahoo</b></sub></a><br /><a href="https://github.com/ratnakar5938/Youtube-clone/commits?author=ratnakar5938" title="Code">💻</a> <a href="#content-ratnakar5938" title="Content">🖋</a> <a href="https://github.com/ratnakar5938/Youtube-clone/commits?author=ratnakar5938" title="Documentation">📖</a> <a href="#design-ratnakar5938" title="Design">🎨</a></td>
+    <td align="center"><a href="http://vaclavsekret.dev"><img src="https://avatars.githubusercontent.com/u/23295673?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vaclav Sekret</b></sub></a><br /><a href="https://github.com/ratnakar5938/Youtube-clone/commits?author=VasekS" title="Documentation">📖</a></td>
   </tr>
 </table>
 
