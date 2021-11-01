@@ -1,109 +1,91 @@
 <div align="center" >
-<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237524/youtube-clone/youtube_uufnxp.png"  width="70%">
+<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237524/youtube-clone/youtube_uufnxp.png"  width="40%">
 </div>
 
-# Youtube Clone
+<p></p>
+<p></p>
+<p></p>
+<p align="center">This is a frontend (ReactJs) UI clone of youtube</p>
 
-This is a frontend (ReactJs) UI clone of youtube
+<h3 align="center"><a href="https://youtube-clone-ratnakar5938.vercel.app/" target="_blank">Check out the deployed site!</a></h3>
 
-Check out the [deployed site](https://youtube-clone-ratnakar5938.vercel.app/)
+---
 
-## Tech Stack
+<h2 align="center">Tech Stack</h2>
 
-**Client:** React, React-Router, CSS
+<p align="center"><b>Client:</b> React, React-Router, CSS</p>
 
-**Deployment:** Vercel
+<p align="center"><b>Deployment:</b> Vercel</p>
 
-## Demo
+---
+
+<h2 align="center">Demo</h2>
 
 <div align="center">
-  
-  ### Home Page UI
-  
-  <img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635510940/youtube-clone/QonmoSxgsN_oyq7hl.gif" />
+  <img src="https://github.com/ratnakar5938/Youtube-clone/tree/master/public/assets/YouTube-Clone.gif" />
   <br>
-  
-  ### SearchBar UI
-
-  <img src="./Searchbar.gif">
-
 </div>
 
-## Screenshots
 
-<div align="center">
+<h3 align="center">Installation</h3>
 
-### Homepage UI
+---
 
-<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237492/youtube-clone/Screenshot_119_mguc2n.png" width="70%" style="margin-right: 30px;">
-<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237815/youtube-clone/Screenshot_2021-10-26-14-11-20-64_df198e732186825c8df26e3c5a10d7cd_sgt0e0.jpg" width="17.75%">
-
-### SearchBar UI
-
-<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237489/youtube-clone/Screenshot_120_f7qwl5.png" width="70%" style="margin-right: 30px;">
-<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237778/youtube-clone/Screenshot_2021-10-26-14-11-31-99_df198e732186825c8df26e3c5a10d7cd_gbnh8e.jpg" width="17.75%">
-
-### VideoPlayer UI
-
-<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635273495/youtube-clone/Screenshot_122_xjt2gw.png" width="70%" style="margin-right: 30px;">
-<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635273535/youtube-clone/Screenshot_2021-10-27-00-06-14-67_df198e732186825c8df26e3c5a10d7cd_vzszm2.jpg" width="17.75%">
-</div>
-<br/>
-
-## Installation
-
-Install yarn into your system
+<p align="center">Install yarn into your system</p>
 
 ```bash
   npm install --global yarn
 ```
 
-## Run Locally
+<h3 align="center">Run Locally</h3>
 
-Clone the project
+<p align="center">Clone the project</p>
 
 ```bash
   git clone https://github.com/ratnakar5938/Youtube-clone.git
 ```
 
-Go to the project directory
+<p align="center">Go to the project directory</p>
 
 ```bash
   cd Youtube-clone
 ```
 
-Install dependencies
+<p align="center">Install dependencies</p>
 
 ```bash
   yarn install
 ```
 
-Start the server
+<p align="center">Start the server</p>
 
 ```bash
   yarn start
 ```
+---
 
-## Contributing
+<h2 align="center">Contributing</h2>
 
-Contributions are always welcome!
+<h3 align="center">Contributions are always welcome!</h3>
 
-See `Contribution.md` for ways to get started.
+<p align="center">See `Contribution.md` for ways to get started.</p>
 
-Please adhere to this project's `code of conduct`.
+<p align="center">Please adhere to this project's `code of conduct`.</p>
 
-## Project Admin
+<h2 align="center">Project Admin</h2>
+
+---
 
 <p align="center">
-<table>
+<table align="center">
   <tbody><tr>
      <td align="center"><a href="https://github.com/ratnakar5938"><img alt="" src="https://avatars.githubusercontent.com/ratnakar5938" width="100px;"><br><sub><b> Ratnakar Sahoo </b></sub></a><br></td> </a></td>
      </tbody>
      </table>
 
-## Contributors ✨
+<h2 align="center">Contributors ✨</h2>
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+<p align="center"><a href="https://allcontributors.org/docs/en/emoji-key" target="_blank">Thanks goes to these wonderful people</a></p>
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -119,4 +101,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+<p align="center">This project follows the <a href="https://github.com/all-contributors/all-contributors" target="_blank">all-contributors</a> specification. Contributions of any kind welcome!</p>
