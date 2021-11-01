@@ -9,83 +9,98 @@
 
 <h3 align="center"><a href="https://youtube-clone-ratnakar5938.vercel.app/" target="_blank">Check out the deployed site!</a></h3>
 
----
 
-<h2 align="center">Tech Stack</h2>
+<h2>Tech Stack</h2>
 
-<p align="center"><b>Client:</b> React, React-Router, CSS</p>
+<p><b>Client:</b> React, React-Router, CSS</p>
 
-<p align="center"><b>Deployment:</b> Vercel</p>
+<p><b>Deployment:</b> Vercel</p>
 
----
 
-<h2 align="center">Demo</h2>
+<h2>Demo</h2>
 
 <div align="center">
   <img src="https://github.com/ratnakar5938/Youtube-clone/tree/master/public/assets/YouTube-Clone.gif" />
   <br>
 </div>
 
+<h2>Screenshots</h2>
 
-<h3 align="center">Installation</h3>
+<div align="center">
 
----
+<h3>Homepage UI</h3>
 
-<p align="center">Install yarn into your system</p>
+<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237492/youtube-clone/Screenshot_119_mguc2n.png" width="70%" style="margin-right: 30px;">
+<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237815/youtube-clone/Screenshot_2021-10-26-14-11-20-64_df198e732186825c8df26e3c5a10d7cd_sgt0e0.jpg" width="17.75%">
+
+<h3>SearchBar UI</h3>
+
+<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237489/youtube-clone/Screenshot_120_f7qwl5.png" width="70%" style="margin-right: 30px;">
+<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237778/youtube-clone/Screenshot_2021-10-26-14-11-31-99_df198e732186825c8df26e3c5a10d7cd_gbnh8e.jpg" width="17.75%">
+
+<h3>VideoPlayer UI</h3>
+
+<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635273495/youtube-clone/Screenshot_122_xjt2gw.png" width="70%" style="margin-right: 30px;">
+<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635273535/youtube-clone/Screenshot_2021-10-27-00-06-14-67_df198e732186825c8df26e3c5a10d7cd_vzszm2.jpg" width="17.75%">
+</div>
+<br/>
+
+<h3>Installation</h3>
+
+
+<p>Install yarn into your system</p>
 
 ```bash
   npm install --global yarn
 ```
 
-<h3 align="center">Run Locally</h3>
+<h3>Run Locally</h3>
 
-<p align="center">Clone the project</p>
+<em>Clone the project</em>
 
 ```bash
   git clone https://github.com/ratnakar5938/Youtube-clone.git
 ```
 
-<p align="center">Go to the project directory</p>
+<em>Go to the project directory</em>
 
 ```bash
   cd Youtube-clone
 ```
 
-<p align="center">Install dependencies</p>
+<em>Install dependencies</em>
 
 ```bash
   yarn install
 ```
 
-<p align="center">Start the server</p>
+<em>Start the server</em>
 
 ```bash
   yarn start
 ```
----
 
-<h2 align="center">Contributing</h2>
+<h2>Contributing</h2>
 
-<h3 align="center">Contributions are always welcome!</h3>
+<h3>Contributions are always welcome!</h3>
 
-<p align="center">See `Contribution.md` for ways to get started.</p>
+<p>See `Contribution.md` for ways to get started.</p>
 
-<p align="center">Please adhere to this project's `code of conduct`.</p>
+<p>Please adhere to this project's `code of conduct`.</p>
 
-<h2 align="center">Project Admin</h2>
+<h2>Project Admin</h2>
 
----
 
 <p align="center">
-<table align="center">
+<table>
   <tbody><tr>
      <td align="center"><a href="https://github.com/ratnakar5938"><img alt="" src="https://avatars.githubusercontent.com/ratnakar5938" width="100px;"><br><sub><b> Ratnakar Sahoo </b></sub></a><br></td> </a></td>
      </tbody>
      </table>
 
-<h2 align="center">Contributors ✨</h2>
+<h2>Contributors ✨</h2>
 
-<p align="center"><a href="https://allcontributors.org/docs/en/emoji-key" target="_blank">Thanks goes to these wonderful people</a></p>
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -101,4 +116,4 @@
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-<p align="center">This project follows the <a href="https://github.com/all-contributors/all-contributors" target="_blank">all-contributors</a> specification. Contributions of any kind welcome!</p>
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
