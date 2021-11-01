@@ -16,6 +16,15 @@
         "doc",
         "design"
       ]
+    },
+    {
+      "login": "VasekS",
+      "name": "Vaclav Sekret",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23295673?v=4",
+      "profile": "http://vaclavsekret.dev",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
