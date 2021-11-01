@@ -1,98 +1,95 @@
 <div align="center" >
-<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237524/youtube-clone/youtube_uufnxp.png"  width="70%">
+<img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237524/youtube-clone/youtube_uufnxp.png"  width="40%">
 </div>
 
-# Youtube Clone
+<p></p>
+<p></p>
+<p></p>
+<p align="center">This is a frontend (ReactJs) UI clone of youtube</p>
 
-This is a frontend (ReactJs) UI clone of youtube
+<h3 align="center"><a href="https://youtube-clone-ratnakar5938.vercel.app/" target="_blank">Check out the deployed site!</a></h3>
 
-Check out the [deployed site](https://youtube-clone-ratnakar5938.vercel.app/)
 
-## Tech Stack
+<h2>Tech Stack</h2>
 
-**Client:** React, React-Router, CSS
+<p><b>Client:</b> React, React-Router, CSS</p>
 
-**Deployment:** Vercel
+<p><b>Deployment:</b> Vercel</p>
 
-## Demo
+
+<h2>Demo</h2>
 
 <div align="center">
-  
-  ### Home Page UI
-  
-  <img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635510940/youtube-clone/QonmoSxgsN_oyq7hl.gif" />
+  <img src="https://github.com/ratnakar5938/Youtube-clone/tree/master/public/assets/YouTube-Clone.gif" />
   <br>
-  
-  ### SearchBar UI
-
-  <img src="./Searchbar.gif">
-
 </div>
 
-## Screenshots
+<h2>Screenshots</h2>
 
 <div align="center">
 
-### Homepage UI
+<h3>Homepage UI</h3>
 
 <img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237492/youtube-clone/Screenshot_119_mguc2n.png" width="70%" style="margin-right: 30px;">
 <img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237815/youtube-clone/Screenshot_2021-10-26-14-11-20-64_df198e732186825c8df26e3c5a10d7cd_sgt0e0.jpg" width="17.75%">
 
-### SearchBar UI
+<h3>SearchBar UI</h3>
 
 <img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237489/youtube-clone/Screenshot_120_f7qwl5.png" width="70%" style="margin-right: 30px;">
 <img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237778/youtube-clone/Screenshot_2021-10-26-14-11-31-99_df198e732186825c8df26e3c5a10d7cd_gbnh8e.jpg" width="17.75%">
 
-### VideoPlayer UI
+<h3>VideoPlayer UI</h3>
 
 <img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635273495/youtube-clone/Screenshot_122_xjt2gw.png" width="70%" style="margin-right: 30px;">
 <img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635273535/youtube-clone/Screenshot_2021-10-27-00-06-14-67_df198e732186825c8df26e3c5a10d7cd_vzszm2.jpg" width="17.75%">
 </div>
 <br/>
 
-## Installation
+<h3>Installation</h3>
 
-Install yarn into your system
+
+<p>Install yarn into your system</p>
 
 ```bash
   npm install --global yarn
 ```
 
-## Run Locally
+<h3>Run Locally</h3>
 
-Clone the project
+<em>Clone the project</em>
 
 ```bash
   git clone https://github.com/ratnakar5938/Youtube-clone.git
 ```
 
-Go to the project directory
+<em>Go to the project directory</em>
 
 ```bash
   cd Youtube-clone
 ```
 
-Install dependencies
+<em>Install dependencies</em>
 
 ```bash
   yarn install
 ```
 
-Start the server
+<em>Start the server</em>
 
 ```bash
   yarn start
 ```
 
-## Contributing
+<h2>Contributing</h2>
 
-Contributions are always welcome!
+<h3>Contributions are always welcome!</h3>
 
-See `Contribution.md` for ways to get started.
+<p>See `Contribution.md` for ways to get started.</p>
 
-Please adhere to this project's `code of conduct`.
+<p>Please adhere to this project's `code of conduct`.</p>
 
-## Project Admin
+<h2>Project Admin</h2>
+
 
 <p align="center">
 <table>
@@ -101,7 +98,7 @@ Please adhere to this project's `code of conduct`.
      </tbody>
      </table>
 
-## Contributors ✨
+<h2>Contributors ✨</h2>
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
