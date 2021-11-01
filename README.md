@@ -1,3 +1,7 @@
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 <div align="center" >
 <img src="https://res.cloudinary.com/ratnakar5938/image/upload/v1635237524/youtube-clone/youtube_uufnxp.png"  width="40%">
 </div>
